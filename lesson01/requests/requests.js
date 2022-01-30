@@ -9,7 +9,7 @@ const options = {
 
 const req = https.request(options, res => {
   res.on("data", d => {
-    process.stdout.write(d);
+    console.log(String(d));
   });
 });
 
