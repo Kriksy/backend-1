@@ -7,7 +7,7 @@ const BOOKS = [
     "author": "Chinua Achebe",
     "country": "Nigeria",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
+    "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
     "pages": 209,
     "title": "Things Fall Apart",
     "year": 1958
@@ -17,7 +17,7 @@ const BOOKS = [
     "author": "Hans Christian Andersen",
     "country": "Denmark",
     "language": "Danish",
-    "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
+    "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.",
     "pages": 784,
     "title": "Fairy tales",
     "year": 1836
@@ -27,7 +27,7 @@ const BOOKS = [
     "author": "Dante Alighieri",
     "country": "Italy",
     "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
+    "link": "https://en.wikipedia.org/wiki/Divine_Comedy",
     "pages": 928,
     "title": "The Divine Comedy",
     "year": 1315
@@ -37,7 +37,7 @@ const BOOKS = [
     "author": "Unknown",
     "country": "Sumer and Akkadian Empire",
     "language": "Akkadian",
-    "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
+    "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
     "pages": 160,
     "title": "The Epic Of Gilgamesh",
     "year": -1700
@@ -47,7 +47,7 @@ const BOOKS = [
     "author": "Unknown",
     "country": "Achaemenid Empire",
     "language": "Hebrew",
-    "link": "https://en.wikipedia.org/wiki/Book_of_Job\n",
+    "link": "https://en.wikipedia.org/wiki/Book_of_Job",
     "pages": 176,
     "title": "The Book Of Job",
     "year": -600
@@ -57,7 +57,7 @@ const BOOKS = [
     "author": "Unknown",
     "country": "India/Iran/Iraq/Egypt/Tajikistan",
     "language": "Arabic",
-    "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n",
+    "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights",
     "pages": 288,
     "title": "One Thousand and One Nights",
     "year": 1200
@@ -67,9 +67,9 @@ const BOOKS = [
     "author": "Unknown",
     "country": "Iceland",
     "language": "Old Norse",
-    "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n",
+    "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga",
     "pages": 384,
-    "title": "Nj\u00e1l's Saga",
+    "title": "Njal's Saga",
     "year": 1350
   },
   {
@@ -77,19 +77,19 @@ const BOOKS = [
     "author": "Jane Austen",
     "country": "United Kingdom",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
+    "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
     "pages": 226,
     "title": "Pride and Prejudice",
     "year": 1813
   },
   {
     "id": 9,
-    "author": "Honor\u00e9 de Balzac",
+    "author": "Honoré de Balzac",
     "country": "France",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n",
+    "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot",
     "pages": 443,
-    "title": "Le P\u00e8re Goriot",
+    "title": "Le Père Goriot",
     "year": 1835
   },
   {
@@ -97,7 +97,7 @@ const BOOKS = [
     "author": "Samuel Beckett",
     "country": "Republic of Ireland",
     "language": "French, English",
-    "link": "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Molloy_(novel)",
     "pages": 256,
     "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
     "year": 1952
@@ -107,7 +107,7 @@ const BOOKS = [
     "author": "Giovanni Boccaccio",
     "country": "Italy",
     "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
+    "link": "https://en.wikipedia.org/wiki/The_Decameron",
     "pages": 1024,
     "title": "The Decameron",
     "year": 1351
@@ -117,17 +117,17 @@ const BOOKS = [
     "author": "Jorge Luis Borges",
     "country": "Argentina",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Ficciones\n",
+    "link": "https://en.wikipedia.org/wiki/Ficciones",
     "pages": 224,
     "title": "Ficciones",
     "year": 1965
   },
   {
     "id": 13,
-    "author": "Emily Bront\u00eb",
+    "author": "Emily Bronté
     "country": "United Kingdom",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
+    "link": "https://en.wikipedia.org/wiki/Wuthering_Heights",
     "pages": 342,
     "title": "Wuthering Heights",
     "year": 1847
@@ -137,7 +137,7 @@ const BOOKS = [
     "author": "Albert Camus",
     "country": "Algeria, French Empire",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)",
     "pages": 185,
     "title": "The Stranger",
     "year": 1942
@@ -147,17 +147,17 @@ const BOOKS = [
     "author": "Paul Celan",
     "country": "Romania, France",
     "language": "German",
-    "link": "\n",
+    "link": "",
     "pages": 320,
     "title": "Poems",
     "year": 1952
   },
   {
     "id": 16,
-    "author": "Louis-Ferdinand C\u00e9line",
+    "author": "Louis-Ferdinand Celine",
     "country": "France",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n",
+    "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night",
     "pages": 505,
     "title": "Journey to the End of the Night",
     "year": 1932
@@ -167,7 +167,7 @@ const BOOKS = [
     "author": "Miguel de Cervantes",
     "country": "Spain",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Don_Quixote\n",
+    "link": "https://en.wikipedia.org/wiki/Don_Quixote",
     "pages": 1056,
     "title": "Don Quijote De La Mancha",
     "year": 1610
@@ -177,7 +177,7 @@ const BOOKS = [
     "author": "Geoffrey Chaucer",
     "country": "England",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales\n",
+    "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales",
     "pages": 544,
     "title": "The Canterbury Tales",
     "year": 1450
@@ -187,7 +187,7 @@ const BOOKS = [
     "author": "Anton Chekhov",
     "country": "Russia",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov\n",
+    "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov",
     "pages": 194,
     "title": "Stories",
     "year": 1886
@@ -197,7 +197,7 @@ const BOOKS = [
     "author": "Joseph Conrad",
     "country": "United Kingdom",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Nostromo\n",
+    "link": "https://en.wikipedia.org/wiki/Nostromo",
     "pages": 320,
     "title": "Nostromo",
     "year": 1904
@@ -207,7 +207,7 @@ const BOOKS = [
     "author": "Charles Dickens",
     "country": "United Kingdom",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Great_Expectations\n",
+    "link": "https://en.wikipedia.org/wiki/Great_Expectations",
     "pages": 194,
     "title": "Great Expectations",
     "year": 1861
@@ -217,17 +217,17 @@ const BOOKS = [
     "author": "Denis Diderot",
     "country": "France",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist\n",
+    "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist",
     "pages": 596,
     "title": "Jacques the Fatalist",
     "year": 1796
   },
   {
     "id": 23,
-    "author": "Alfred D\u00f6blin",
+    "author": "Alfred Döblin",
     "country": "Germany",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz\n",
+    "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz",
     "pages": 600,
     "title": "Berlin Alexanderplatz",
     "year": 1929
@@ -237,7 +237,7 @@ const BOOKS = [
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment\n",
+    "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
     "pages": 551,
     "title": "Crime and Punishment",
     "year": 1866
@@ -247,7 +247,7 @@ const BOOKS = [
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/The_Idiot\n",
+    "link": "https://en.wikipedia.org/wiki/The_Idiot",
     "pages": 656,
     "title": "The Idiot",
     "year": 1869
@@ -257,7 +257,7 @@ const BOOKS = [
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)",
     "pages": 768,
     "title": "The Possessed",
     "year": 1872
@@ -267,7 +267,7 @@ const BOOKS = [
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n",
+    "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
     "pages": 824,
     "title": "The Brothers Karamazov",
     "year": 1880
@@ -277,7 +277,7 @@ const BOOKS = [
     "author": "George Eliot",
     "country": "United Kingdom",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Middlemarch\n",
+    "link": "https://en.wikipedia.org/wiki/Middlemarch",
     "pages": 800,
     "title": "Middlemarch",
     "year": 1871
@@ -287,7 +287,7 @@ const BOOKS = [
     "author": "Ralph Ellison",
     "country": "United States",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Invisible_Man\n",
+    "link": "https://en.wikipedia.org/wiki/Invisible_Man",
     "pages": 581,
     "title": "Invisible Man",
     "year": 1952
@@ -297,7 +297,7 @@ const BOOKS = [
     "author": "Euripides",
     "country": "Greece",
     "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Medea_(play)\n",
+    "link": "https://en.wikipedia.org/wiki/Medea_(play)",
     "pages": 104,
     "title": "Medea",
     "year": -431
@@ -307,7 +307,7 @@ const BOOKS = [
     "author": "William Faulkner",
     "country": "United States",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!\n",
+    "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!",
     "pages": 313,
     "title": "Absalom, Absalom!",
     "year": 1936
@@ -317,7 +317,7 @@ const BOOKS = [
     "author": "William Faulkner",
     "country": "United States",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n",
+    "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
     "pages": 326,
     "title": "The Sound and the Fury",
     "year": 1929
@@ -327,7 +327,7 @@ const BOOKS = [
     "author": "Gustave Flaubert",
     "country": "France",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Madame_Bovary\n",
+    "link": "https://en.wikipedia.org/wiki/Madame_Bovary",
     "pages": 528,
     "title": "Madame Bovary",
     "year": 1857
@@ -337,37 +337,37 @@ const BOOKS = [
     "author": "Gustave Flaubert",
     "country": "France",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Sentimental_Education\n",
+    "link": "https://en.wikipedia.org/wiki/Sentimental_Education",
     "pages": 606,
     "title": "Sentimental Education",
     "year": 1869
   },
   {
     "id": 35,
-    "author": "Federico Garc\u00eda Lorca",
+    "author": "Federico Garcia Lorca",
     "country": "Spain",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads\n",
+    "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads",
     "pages": 218,
     "title": "Gypsy Ballads",
     "year": 1928
   },
   {
     "id": 36,
-    "author": "Gabriel Garc\u00eda M\u00e1rquez",
+    "author": "Gabriel Garcia Marquez",
     "country": "Colombia",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude\n",
+    "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
     "pages": 417,
     "title": "One Hundred Years of Solitude",
     "year": 1967
   },
   {
     "id": 37,
-    "author": "Gabriel Garc\u00eda M\u00e1rquez",
+    "author": "Gabriel Garcia Marquez",
     "country": "Colombia",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera\n",
+    "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera",
     "pages": 368,
     "title": "Love in the Time of Cholera",
     "year": 1985
@@ -377,7 +377,7 @@ const BOOKS = [
     "author": "Johann Wolfgang von Goethe",
     "country": "Saxe-Weimar",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
+    "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust",
     "pages": 158,
     "title": "Faust",
     "year": 1832
@@ -387,27 +387,27 @@ const BOOKS = [
     "author": "Nikolai Gogol",
     "country": "Russia",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Dead_Souls\n",
+    "link": "https://en.wikipedia.org/wiki/Dead_Souls",
     "pages": 432,
     "title": "Dead Souls",
     "year": 1842
   },
   {
     "id": 40,
-    "author": "G\u00fcnter Grass",
+    "author": "Günter Grass",
     "country": "Germany",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Tin_Drum\n",
+    "link": "https://en.wikipedia.org/wiki/The_Tin_Drum",
     "pages": 600,
     "title": "The Tin Drum",
     "year": 1959
   },
   {
     "id": 41,
-    "author": "Jo\u00e3o Guimar\u00e3es Rosa",
+    "author": "João Guimarães Rosa",
     "country": "Brazil",
     "language": "Portuguese",
-    "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands\n",
+    "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands",
     "pages": 494,
     "title": "The Devil to Pay in the Backlands",
     "year": 1956
@@ -417,7 +417,7 @@ const BOOKS = [
     "author": "Knut Hamsun",
     "country": "Norway",
     "language": "Norwegian",
-    "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)",
     "pages": 176,
     "title": "Hunger",
     "year": 1890
@@ -427,7 +427,7 @@ const BOOKS = [
     "author": "Ernest Hemingway",
     "country": "United States",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n",
+    "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
     "pages": 128,
     "title": "The Old Man and the Sea",
     "year": 1952
@@ -437,7 +437,7 @@ const BOOKS = [
     "author": "Homer",
     "country": "Greece",
     "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Iliad\n",
+    "link": "https://en.wikipedia.org/wiki/Iliad",
     "pages": 608,
     "title": "Iliad",
     "year": -735
@@ -447,7 +447,7 @@ const BOOKS = [
     "author": "Homer",
     "country": "Greece",
     "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Odyssey\n",
+    "link": "https://en.wikipedia.org/wiki/Odyssey",
     "pages": 374,
     "title": "Odyssey",
     "year": -800
@@ -457,7 +457,7 @@ const BOOKS = [
     "author": "Henrik Ibsen",
     "country": "Norway",
     "language": "Norwegian",
-    "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House\n",
+    "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House",
     "pages": 68,
     "title": "A Doll's House",
     "year": 1879
@@ -467,7 +467,7 @@ const BOOKS = [
     "author": "James Joyce",
     "country": "Irish Free State",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)",
     "pages": 228,
     "title": "Ulysses",
     "year": 1922
@@ -477,7 +477,7 @@ const BOOKS = [
     "author": "Franz Kafka",
     "country": "Czechoslovakia",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories\n",
+    "link": "https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories",
     "pages": 488,
     "title": "Stories",
     "year": 1924
@@ -487,7 +487,7 @@ const BOOKS = [
     "author": "Franz Kafka",
     "country": "Czechoslovakia",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Trial\n",
+    "link": "https://en.wikipedia.org/wiki/The_Trial",
     "pages": 160,
     "title": "The Trial",
     "year": 1925
@@ -497,17 +497,17 @@ const BOOKS = [
     "author": "Franz Kafka",
     "country": "Czechoslovakia",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Castle_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/The_Castle_(novel)",
     "pages": 352,
     "title": "The Castle",
     "year": 1926
   },
   {
     "id": 51,
-    "author": "K\u0101lid\u0101sa",
+    "author": "Kälidäsa",
     "country": "India",
     "language": "Sanskrit",
-    "link": "https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam\n",
+    "link": "https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam",
     "pages": 147,
     "title": "The recognition of Shakuntala",
     "year": 150
@@ -517,7 +517,7 @@ const BOOKS = [
     "author": "Yasunari Kawabata",
     "country": "Japan",
     "language": "Japanese",
-    "link": "https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain\n",
+    "link": "https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain",
     "pages": 288,
     "title": "The Sound of the Mountain",
     "year": 1954
@@ -527,7 +527,7 @@ const BOOKS = [
     "author": "Nikos Kazantzakis",
     "country": "Greece",
     "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Zorba_the_Greek\n",
+    "link": "https://en.wikipedia.org/wiki/Zorba_the_Greek",
     "pages": 368,
     "title": "Zorba the Greek",
     "year": 1946
@@ -537,17 +537,17 @@ const BOOKS = [
     "author": "D. H. Lawrence",
     "country": "United Kingdom",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Sons_and_Lovers\n",
+    "link": "https://en.wikipedia.org/wiki/Sons_and_Lovers",
     "pages": 432,
     "title": "Sons and Lovers",
     "year": 1913
   },
   {
     "id": 55,
-    "author": "Halld\u00f3r Laxness",
+    "author": "Halldór Laxness",
     "country": "Iceland",
     "language": "Icelandic",
-    "link": "https://en.wikipedia.org/wiki/Independent_People\n",
+    "link": "https://en.wikipedia.org/wiki/Independent_People",
     "pages": 470,
     "title": "Independent People",
     "year": 1934
@@ -557,7 +557,7 @@ const BOOKS = [
     "author": "Giacomo Leopardi",
     "country": "Italy",
     "language": "Italian",
-    "link": "\n",
+    "link": "",
     "pages": 184,
     "title": "Poems",
     "year": 1818
@@ -567,7 +567,7 @@ const BOOKS = [
     "author": "Doris Lessing",
     "country": "United Kingdom",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Golden_Notebook\n",
+    "link": "https://en.wikipedia.org/wiki/The_Golden_Notebook",
     "pages": 688,
     "title": "The Golden Notebook",
     "year": 1962
@@ -577,7 +577,7 @@ const BOOKS = [
     "author": "Astrid Lindgren",
     "country": "Sweden",
     "language": "Swedish",
-    "link": "https://en.wikipedia.org/wiki/Pippi_Longstocking\n",
+    "link": "https://en.wikipedia.org/wiki/Pippi_Longstocking",
     "pages": 160,
     "title": "Pippi Longstocking",
     "year": 1945
@@ -587,7 +587,7 @@ const BOOKS = [
     "author": "Lu Xun",
     "country": "China",
     "language": "Chinese",
-    "link": "https://en.wikipedia.org/wiki/A_Madman%27s_Diary\n",
+    "link": "https://en.wikipedia.org/wiki/A_Madman%27s_Diary",
     "pages": 389,
     "title": "Diary of a Madman",
     "year": 1918
@@ -597,7 +597,7 @@ const BOOKS = [
     "author": "Naguib Mahfouz",
     "country": "Egypt",
     "language": "Arabic",
-    "link": "https://en.wikipedia.org/wiki/Children_of_Gebelawi\n",
+    "link": "https://en.wikipedia.org/wiki/Children_of_Gebelawi",
     "pages": 355,
     "title": "Children of Gebelawi",
     "year": 1959
@@ -607,7 +607,7 @@ const BOOKS = [
     "author": "Thomas Mann",
     "country": "Germany",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Buddenbrooks\n",
+    "link": "https://en.wikipedia.org/wiki/Buddenbrooks",
     "pages": 736,
     "title": "Buddenbrooks",
     "year": 1901
@@ -617,7 +617,7 @@ const BOOKS = [
     "author": "Thomas Mann",
     "country": "Germany",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Magic_Mountain\n",
+    "link": "https://en.wikipedia.org/wiki/The_Magic_Mountain",
     "pages": 720,
     "title": "The Magic Mountain",
     "year": 1924
@@ -627,7 +627,7 @@ const BOOKS = [
     "author": "Herman Melville",
     "country": "United States",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Moby-Dick\n",
+    "link": "https://en.wikipedia.org/wiki/Moby-Dick",
     "pages": 378,
     "title": "Moby Dick",
     "year": 1851
@@ -637,7 +637,7 @@ const BOOKS = [
     "author": "Michel de Montaigne",
     "country": "France",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Essays_(Montaigne)\n",
+    "link": "https://en.wikipedia.org/wiki/Essays_(Montaigne)",
     "pages": 404,
     "title": "Essays",
     "year": 1595
@@ -647,7 +647,7 @@ const BOOKS = [
     "author": "Elsa Morante",
     "country": "Italy",
     "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/History_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/History_(novel)",
     "pages": 600,
     "title": "History",
     "year": 1974
@@ -657,7 +657,7 @@ const BOOKS = [
     "author": "Toni Morrison",
     "country": "United States",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Beloved_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Beloved_(novel)",
     "pages": 321,
     "title": "Beloved",
     "year": 1987
@@ -667,7 +667,7 @@ const BOOKS = [
     "author": "Murasaki Shikibu",
     "country": "Japan",
     "language": "Japanese",
-    "link": "https://en.wikipedia.org/wiki/The_Tale_of_Genji\n",
+    "link": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
     "pages": 1360,
     "title": "The Tale of Genji",
     "year": 1006
@@ -677,7 +677,7 @@ const BOOKS = [
     "author": "Robert Musil",
     "country": "Austria",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities\n",
+    "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities",
     "pages": 365,
     "title": "The Man Without Qualities",
     "year": 1931
@@ -687,7 +687,7 @@ const BOOKS = [
     "author": "Vladimir Nabokov",
     "country": "Russia/United States",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Lolita\n",
+    "link": "https://en.wikipedia.org/wiki/Lolita",
     "pages": 317,
     "title": "Lolita",
     "year": 1955
@@ -697,7 +697,7 @@ const BOOKS = [
     "author": "George Orwell",
     "country": "United Kingdom",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four\n",
+    "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
     "pages": 272,
     "title": "Nineteen Eighty-Four",
     "year": 1949
@@ -707,7 +707,7 @@ const BOOKS = [
     "author": "Ovid",
     "country": "Roman Empire",
     "language": "Classical Latin",
-    "link": "https://en.wikipedia.org/wiki/Metamorphoses\n",
+    "link": "https://en.wikipedia.org/wiki/Metamorphoses",
     "pages": 576,
     "title": "Metamorphoses",
     "year": 100
@@ -717,7 +717,7 @@ const BOOKS = [
     "author": "Fernando Pessoa",
     "country": "Portugal",
     "language": "Portuguese",
-    "link": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet\n",
+    "link": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet",
     "pages": 272,
     "title": "The Book of Disquiet",
     "year": 1928
@@ -727,7 +727,7 @@ const BOOKS = [
     "author": "Edgar Allan Poe",
     "country": "United States",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales\n",
+    "link": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales",
     "pages": 842,
     "title": "Tales",
     "year": 1950
@@ -737,17 +737,17 @@ const BOOKS = [
     "author": "Marcel Proust",
     "country": "France",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time\n",
+    "link": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time",
     "pages": 2408,
     "title": "In Search of Lost Time",
     "year": 1920
   },
   {
     "id": 75,
-    "author": "Fran\u00e7ois Rabelais",
+    "author": "Francois Rabelais",
     "country": "France",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel\n",
+    "link": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel",
     "pages": 623,
     "title": "Gargantua and Pantagruel",
     "year": 1533
@@ -757,9 +757,9 @@ const BOOKS = [
     "author": "Juan Rulfo",
     "country": "Mexico",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo\n",
+    "link": "https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo",
     "pages": 124,
-    "title": "Pedro P\u00e1ramo",
+    "title": "Pedro Paramo",
     "year": 1955
   },
   {
@@ -767,7 +767,7 @@ const BOOKS = [
     "author": "Rumi",
     "country": "Sultanate of Rum",
     "language": "Persian",
-    "link": "https://en.wikipedia.org/wiki/Masnavi\n",
+    "link": "https://en.wikipedia.org/wiki/Masnavi",
     "pages": 438,
     "title": "The Masnavi",
     "year": 1236
@@ -777,7 +777,7 @@ const BOOKS = [
     "author": "Salman Rushdie",
     "country": "United Kingdom, India",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Midnight%27s_Children\n",
+    "link": "https://en.wikipedia.org/wiki/Midnight%27s_Children",
     "pages": 536,
     "title": "Midnight's Children",
     "year": 1981
@@ -787,7 +787,7 @@ const BOOKS = [
     "author": "Saadi",
     "country": "Persia, Persian Empire",
     "language": "Persian",
-    "link": "https://en.wikipedia.org/wiki/Bustan_(book)\n",
+    "link": "https://en.wikipedia.org/wiki/Bustan_(book)",
     "pages": 298,
     "title": "Bostan",
     "year": 1257
@@ -797,17 +797,17 @@ const BOOKS = [
     "author": "Tayeb Salih",
     "country": "Sudan",
     "language": "Arabic",
-    "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n",
+    "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North",
     "pages": 139,
     "title": "Season of Migration to the North",
     "year": 1966
   },
   {
     "id": 81,
-    "author": "Jos\u00e9 Saramago",
+    "author": "José Saramago",
     "country": "Portugal",
     "language": "Portuguese",
-    "link": "https://en.wikipedia.org/wiki/Blindness_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Blindness_(novel)",
     "pages": 352,
     "title": "Blindness",
     "year": 1995
@@ -817,7 +817,7 @@ const BOOKS = [
     "author": "William Shakespeare",
     "country": "England",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Hamlet\n",
+    "link": "https://en.wikipedia.org/wiki/Hamlet",
     "pages": 432,
     "title": "Hamlet",
     "year": 1603
@@ -827,7 +827,7 @@ const BOOKS = [
     "author": "William Shakespeare",
     "country": "England",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/King_Lear\n",
+    "link": "https://en.wikipedia.org/wiki/King_Lear",
     "pages": 384,
     "title": "King Lear",
     "year": 1608
@@ -837,7 +837,7 @@ const BOOKS = [
     "author": "William Shakespeare",
     "country": "England",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Othello\n",
+    "link": "https://en.wikipedia.org/wiki/Othello",
     "pages": 314,
     "title": "Othello",
     "year": 1609
@@ -847,7 +847,7 @@ const BOOKS = [
     "author": "Sophocles",
     "country": "Greece",
     "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Oedipus_the_King\n",
+    "link": "https://en.wikipedia.org/wiki/Oedipus_the_King",
     "pages": 88,
     "title": "Oedipus the King",
     "year": -430
@@ -857,7 +857,7 @@ const BOOKS = [
     "author": "Stendhal",
     "country": "France",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/The_Red_and_the_Black\n",
+    "link": "https://en.wikipedia.org/wiki/The_Red_and_the_Black",
     "pages": 576,
     "title": "The Red and the Black",
     "year": 1830
@@ -867,7 +867,7 @@ const BOOKS = [
     "author": "Laurence Sterne",
     "country": "England",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman\n",
+    "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman",
     "pages": 640,
     "title": "The Life And Opinions of Tristram Shandy",
     "year": 1760
@@ -877,7 +877,7 @@ const BOOKS = [
     "author": "Italo Svevo",
     "country": "Italy",
     "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/Zeno%27s_Conscience\n",
+    "link": "https://en.wikipedia.org/wiki/Zeno%27s_Conscience",
     "pages": 412,
     "title": "Confessions of Zeno",
     "year": 1923
@@ -887,7 +887,7 @@ const BOOKS = [
     "author": "Jonathan Swift",
     "country": "Ireland",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels\n",
+    "link": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
     "pages": 178,
     "title": "Gulliver's Travels",
     "year": 1726
@@ -897,7 +897,7 @@ const BOOKS = [
     "author": "Leo Tolstoy",
     "country": "Russia",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/War_and_Peace\n",
+    "link": "https://en.wikipedia.org/wiki/War_and_Peace",
     "pages": 1296,
     "title": "War and Peace",
     "year": 1867
@@ -907,7 +907,7 @@ const BOOKS = [
     "author": "Leo Tolstoy",
     "country": "Russia",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Anna_Karenina\n",
+    "link": "https://en.wikipedia.org/wiki/Anna_Karenina",
     "pages": 864,
     "title": "Anna Karenina",
     "year": 1877
@@ -917,7 +917,7 @@ const BOOKS = [
     "author": "Leo Tolstoy",
     "country": "Russia",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich\n",
+    "link": "https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich",
     "pages": 92,
     "title": "The Death of Ivan Ilyich",
     "year": 1886
@@ -927,7 +927,7 @@ const BOOKS = [
     "author": "Mark Twain",
     "country": "United States",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn\n",
+    "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
     "pages": 224,
     "title": "The Adventures of Huckleberry Finn",
     "year": 1884
@@ -937,7 +937,7 @@ const BOOKS = [
     "author": "Valmiki",
     "country": "India",
     "language": "Sanskrit",
-    "link": "https://en.wikipedia.org/wiki/Ramayana\n",
+    "link": "https://en.wikipedia.org/wiki/Ramayana",
     "pages": 152,
     "title": "Ramayana",
     "year": -450
@@ -947,7 +947,7 @@ const BOOKS = [
     "author": "Virgil",
     "country": "Roman Empire",
     "language": "Classical Latin",
-    "link": "https://en.wikipedia.org/wiki/Aeneid\n",
+    "link": "https://en.wikipedia.org/wiki/Aeneid",
     "pages": 442,
     "title": "The Aeneid",
     "year": -23
@@ -957,7 +957,7 @@ const BOOKS = [
     "author": "Vyasa",
     "country": "India",
     "language": "Sanskrit",
-    "link": "https://en.wikipedia.org/wiki/Mahabharata\n",
+    "link": "https://en.wikipedia.org/wiki/Mahabharata",
     "pages": 276,
     "title": "Mahabharata",
     "year": -700
@@ -967,7 +967,7 @@ const BOOKS = [
     "author": "Walt Whitman",
     "country": "United States",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass\n",
+    "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass",
     "pages": 152,
     "title": "Leaves of Grass",
     "year": 1855
@@ -977,7 +977,7 @@ const BOOKS = [
     "author": "Virginia Woolf",
     "country": "United Kingdom",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway\n",
+    "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway",
     "pages": 216,
     "title": "Mrs Dalloway",
     "year": 1925
@@ -987,7 +987,7 @@ const BOOKS = [
     "author": "Virginia Woolf",
     "country": "United Kingdom",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse\n",
+    "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse",
     "pages": 209,
     "title": "To the Lighthouse",
     "year": 1927
@@ -997,7 +997,7 @@ const BOOKS = [
     "author": "Marguerite Yourcenar",
     "country": "France/Belgium",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian\n",
+    "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian",
     "pages": 408,
     "title": "Memoirs of Hadrian",
     "year": 1951
