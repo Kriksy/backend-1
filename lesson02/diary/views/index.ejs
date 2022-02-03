@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css" />
+    <title>Diary</title>
+</head>
+<body>
+    <h1>Diary</h1>
+    <% entries.forEach(entry => { %>
+        <h2><%= entry.title %></h2>
+        <p><%= entry.entry %></p>
+        <p><%= entry.date.toISOString() %></p>
+    <% }) %>
+    <form method="post" action="/">
+        Title:<br/>
+        <input type="text" name="title"><br/>
+        <textarea name="entry"></textarea><br/>
+        <input type="submit" value="Save">
+    </form>
+</body>
+</html>
