@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const util = require("util");
 
 const textfile = path.join(__dirname, "ipsum.txt");
 
@@ -25,6 +26,12 @@ const getFile = (filePath) => {
 
 getFile(textfile)
   .then(data => console.log(data))
+  .catch(err => console.error(err));
+
+// NB: Instead of manually creating a promise function we can
+// use util.promisify:
+util.promisify(fs.readFile)(textfile)
+  .then(data => console.log(String(data)))
   .catch(err => console.error(err));
 
 (async () => {
