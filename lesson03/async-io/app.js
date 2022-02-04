@@ -1,6 +1,14 @@
 const fs = require("fs");
 const path = require("path");
 
+fs.readFile(filePath, "utf8", (_error, data) => {
+  if (error) {
+    console.error("Something went wrong!");
+  } else {
+    console.log("Here's the data:", data);
+  }
+});
+
 fs.readFile(path.join(__dirname, "hello.txt"), "utf8", (_error, data) => {
   console.log("Finished reading the file:", data);
 });
