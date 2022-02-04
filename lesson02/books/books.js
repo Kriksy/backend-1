@@ -124,7 +124,7 @@ const BOOKS = [
   },
   {
     "id": 13,
-    "author": "Emily Bronté
+    "author": "Emily Bronté",
     "country": "United Kingdom",
     "language": "English",
     "link": "https://en.wikipedia.org/wiki/Wuthering_Heights",
