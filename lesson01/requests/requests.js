@@ -8,8 +8,12 @@ const options = {
 }
 
 const req = https.request(options, res => {
+  let response = "";
   res.on("data", d => {
-    console.log(String(d));
+    response += d;
+  });
+  res.on("end", () => {
+    console.log(response);
   });
 });
 
