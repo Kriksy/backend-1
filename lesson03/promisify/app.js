@@ -30,9 +30,12 @@ getFile(textfile)
 
 // NB: Instead of manually creating a promise function we can
 // use util.promisify:
-util.promisify(fs.readFile)(textfile)
+/*
+const getFile = util.promisify(fs.readFile);
+getFile(textfile);
   .then(data => console.log(String(data)))
   .catch(err => console.error(err));
+*/
 
 (async () => {
   try {
