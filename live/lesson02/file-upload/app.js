@@ -7,7 +7,7 @@ const PORT = 3000;
 
 const upload = multer({ dest: "uploads" });
 
-app.use(upload.single("file"));
+app.use(upload.single("uploaded-file"));
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "index.html"));
@@ -16,6 +16,7 @@ app.get("/", (req, res) => {
 app.post(
     "/upload",
     (req, res) => {
+        console.log(req.file);
         res.send("Files uploaded successfully!");
     }
 );
