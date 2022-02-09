@@ -1,11 +1,11 @@
 const express = require("express");
 const multer = require("multer");
 const path = require("path");
-const app = express()
+const app = express();
 const PORT = 3000;
 
 
-const upload = multer({ dest: 'uploads/' })
+const upload = multer({ dest: 'uploads/' });
 
 app.get("/", (_req, res) => {
   res.sendFile(path.join(__dirname, "upload.html"))
