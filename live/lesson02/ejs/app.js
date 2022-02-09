@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 
 app.get("/:heroName", (req, res) => {
     const heroName = req.params.heroName;
-    const hero = HEROES.filter(({ name }) => name === heroName)[0];
+    const hero = HEROES.find(({ name }) => name === heroName);
     res.render("hero.ejs", hero);
 })
 
