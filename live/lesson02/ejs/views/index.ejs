@@ -3,7 +3,16 @@
         <title>EJS Demo</title>
     </head>
     <body>
-        <h1>A title</h1>
-        <p>Some text</p>
+        <h1><%= title %></h1>
+        <ul>
+            <% heroes.forEach((hero) => { %>
+                <li>
+                    <%= hero.name %>
+                    <% if (hero.origin) { %>
+                        of <%= hero.origin %>
+                    <% } %>
+                </li>
+            <% }) %>
+        </ul>
     </body>
 </html>
