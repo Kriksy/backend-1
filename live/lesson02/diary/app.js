@@ -11,8 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.post("/submit", (req, res) => {
     const { entry, title } = req.body;
     entries.push({ title, entry, date: new Date() });
-    res.send("Entry submitted!");
-    console.log(entries);
+    res.redirect("/");
 });
 
 const renderEntry = ({title, entry, date}) => {
