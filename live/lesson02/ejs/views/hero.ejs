@@ -1,3 +1,4 @@
-<%- include("partials/header.ejs") %>
+<%- include("partials/header.ejs", {title: name}) %>
 <h1><%= name %></h1>
+<p><%= name %> hails from <%= origin %></p>
 <%- include("partials/footer.ejs") %>
