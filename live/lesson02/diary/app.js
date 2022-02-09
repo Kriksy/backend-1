@@ -27,6 +27,7 @@ app.get("/", (req, res) => {
     res.send(`
         <h1>Diary</h1>
 
+        ${entries.map(renderEntry)}
 
         <h2>New entry</h2>
         <form method="POST" action="/submit" >
