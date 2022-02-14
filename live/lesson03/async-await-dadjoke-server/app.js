@@ -1,16 +1,17 @@
 const axios = require("axios");
-const fs = require("fs");
 const express = require("express");
 
 const app = express();
 const PORT = 3000;
 
-app.get("/", (req, res, next) => {
+app.get("/", async (req, res, next) => {
     const headers = {"User-Agent": "axios", "Accept": "text/plain"};
-    axios
-        .get("https://icanhazdadjoke.com", {headers})
-        .then((response) => res.send(response.data))
-        .catch((err) => next(err));
+    try {
+      const response = await axios.get("https://icanhazdadjoke.com/1234", {headers});
+      res.send(response.data);
+    } catch (error) {
+      next(error);
+    }
 });
 
 app.listen(PORT, () => {
