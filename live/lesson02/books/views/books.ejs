@@ -1,0 +1,10 @@
+<%- include("fragments/header.ejs", {title: "Top 100 Books"}) %>
+    <h1>Top 100 Books</h1>
+    <ul>
+        <% books.forEach((book) => { %>
+            <li>
+                <a href="/books/<%= book.id %>"><%= book.title %></a>
+            </li>
+        <% }) %>
+    </ul>
+<%- include("fragments/footer.ejs") %>
