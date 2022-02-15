@@ -1,11 +1,14 @@
 const axios = require("axios");
 
 const headers = {"User-Agent": "axios", "Accept": "text/plain"};
+//
+// Get a joke and print it to the console
 axios
     .get("https://icanhazdadjoke.com", {headers: headers})
-    .catch((err) => { return "ERROR FETCHING DAD JOKES" })
-    .then((data) => { console.log("Same dad joke:", data); })
+    .catch((_err) => { return "ERROR FETCHING DAD JOKES" })
+    .then((response) => { console.log(response.data); })
 
+// Get a joke from icanhazdadjoke.com and forward it to our own server:
 axios
     .get("https://icanhazdadjoke.com", {headers: headers})
     .then((response) => { 
