@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Express Boilerplate</title>
+    </head>
+
+    <body>
+        <h1>Albums</h1>
+        <ul>
+        <% albums.forEach(album => {%>
+            <li><%= album.title %></li>
+        <% }) %>
+        </ul>
+        <h2>Add new album</h2>
+        <form method="post" action="/">
+            Title:
+            <br>
+            <input type="text" name="title"><br>
+            Artist:
+            <br>
+            <input type="text" name="artist"><br>
+            Year:
+            <br>
+            <input type="number" name="year"><br>
+            Tracks:
+            <br>
+            <textarea name="tracks">Input tracks here, one per line
+            </textarea><br>
+            Genre:
+            <select name="genre">
+                <option value="Rock">Rock</option>
+                <option value="Pop">Pop</option>
+                <option value="House">House</option>
+                <option value="Rap">Rap</option>
+            </select>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>
