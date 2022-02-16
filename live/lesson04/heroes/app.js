@@ -13,10 +13,15 @@ app.get("/", async (req, res) => {
     res.render("index.ejs", { heroes });
 });
 
-app.post("/heroes", async (req, res) => {
+app.post("/heroes", async (req, res, next) => {
     const hero = new Hero(req.body);
-    await hero.save();
-    res.redirect("/");
+    try {
+        await hero.save();
+        res.redirect("/");
+    } catch (error) {
+        console.log(error.errors);
+        res.render("errors.ejs", { errors: error.errors });
+    }
 });
 
 app.get("/heroes/:heroId", async (req, res) => {

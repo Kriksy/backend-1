@@ -1,0 +1,8 @@
+
+<ul>
+    <% ["name", "age"].forEach(key => {%>
+        <li>
+            <%= key %>: <%= errors[key].message %>
+        </li>
+    <% }) %>
+</ul>
