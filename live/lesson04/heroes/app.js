@@ -10,6 +10,12 @@ app.get("/", async (req, res) => {
     res.render("index.ejs", { heroes });
 });
 
+app.get("/heroes/:heroId", async (req, res) => {
+    const heroId = req.params.heroId;
+    const hero = await Hero.findOne({_id: heroId});
+    res.render("hero.ejs", hero);
+});
+
 mongoose.connect("mongodb://localhost/backend1");
 app.listen(PORT, () => {
     console.log(`Started Express server on port ${PORT}`);
