@@ -1,13 +1,22 @@
 const express = require("express");
 const mongoose = require("mongoose");
+// const bodyParser = require("body-parser");
 const { Hero } = require("./models/hero");
 
 const app = express()
 const PORT = 3000;
 
+app.use(express.urlencoded());
+
 app.get("/", async (req, res) => {
     const heroes = await Hero.find().exec();
     res.render("index.ejs", { heroes });
+});
+
+app.post("/heroes", async (req, res) => {
+    const hero = new Hero(req.body);
+    await hero.save();
+    res.redirect("/");
 });
 
 app.get("/heroes/:heroId", async (req, res) => {
