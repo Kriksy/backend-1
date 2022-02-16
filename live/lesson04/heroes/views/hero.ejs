@@ -2,10 +2,21 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title><%= name %></title>
+        <title><%= hero.name %></title>
     </head>
     <body>
-        <h1><%= name %></h1>
-        <p>Age: <%= age %></p>
+        <h1><%= hero.name %></h1>
+        <p>Age: <%= hero.age %></p>
+        <p>Location: <%= hero.location.name %></p>
+        <form method="POST">
+            <select name="location">
+                <% locations.forEach(location => {%>
+                    <option value="<%= location._id %>">
+                        <%= location.name %>
+                    </option>
+                <% }) %>
+            </select>
+            <input type="submit" value="Change location">
+        </form>
     </body>
 </html>
