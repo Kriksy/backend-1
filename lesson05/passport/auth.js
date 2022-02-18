@@ -21,7 +21,6 @@ passport.serializeUser((user, callback) => {
 
 // Load user from session. NB: This can also be asynchronous!
 passport.deserializeUser((user, callback) => {
-    console.log("deserializing user");
     return callback(null, user);
 });
 
