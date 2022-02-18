@@ -4,8 +4,6 @@ const LocalStrategy = require("passport-local");
 
 const router = express.Router();
 
-// router.use(express.urlencoded({extended: true}))
-
 const users = {"bella": "twilight"}
 
 passport.use(new LocalStrategy((username, password, callback) => {
