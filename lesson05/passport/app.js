@@ -1,6 +1,7 @@
 const express = require("express");
-const session = require("express-session");
+const mongoose = require("mongoose");
 const passport = require("passport");
+const session = require("express-session");
 
 const authRouter = require("./auth").router;
 const diaryRouter = require("./diary").router;
@@ -21,6 +22,7 @@ app.use("/auth", authRouter);
 app.use("/", diaryRouter);
 
 
+mongoose.connect("mongodb://127.0.0.1/backend1");
 app.listen(PORT, () => {
   console.log(`Started Express server on port ${PORT}`);
 });
