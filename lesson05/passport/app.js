@@ -1,3 +1,4 @@
+require("dotenv").config()
 const express = require("express");
 const mongoose = require("mongoose");
 const passport = require("passport");
@@ -10,11 +11,12 @@ const diaryRouter = require("./diary").router;
 
 const app = express()
 const PORT = 3000;
-const MONGO_URL = "mongodb://127.0.0.1/backend1";
+const MONGO_URL = process.env.MONGO_URL;
+const SESSION_SECRET = process.env.SESSION_SECRET;
 
 app.use(express.urlencoded({extended: true}));
 app.use(session({
-  secret: "keyboard cat",
+  secret: SESSION_SECRET,
   resave: false,
   saveUninitialized: false,
   store: MongoStore.create({ mongoUrl: MONGO_URL })
