@@ -19,8 +19,6 @@ const authenticate = (basicAuth) => {
 
 app.get("/", (req, res) => {
     const authHeader = req.header("Authorization");
-    console.log(authHeader);
-    console.log(authenticate(authHeader));
     if (authHeader && authenticate(authHeader)) {
         const user = authenticate(authHeader);
         res.send(`Hello, ${user}!`);
