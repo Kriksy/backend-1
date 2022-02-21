@@ -1,4 +1,5 @@
 const express = require("express");
+const mongoose = require("mongoose");
 
 const { User } = require("./models/user");
 
@@ -21,8 +22,9 @@ app.post("/signup", async (req, res) => {
   await user.setPassword(password);
   await user.save();
   res.redirect("/signup");
-})
+});
 
+mongoose.connect("mongodb://localhost/backend1");
 app.listen(PORT, () => {
   console.log(`Started Express server on port ${PORT}`);
 });
