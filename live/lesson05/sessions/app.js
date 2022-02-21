@@ -6,7 +6,7 @@ const app = express()
 const PORT = 3000;
 
 app.use(cookieParser());
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended: true}));
 
 const USERS = {
   "chreke": "secret"
@@ -20,9 +20,13 @@ app.get("/", (req, res) => {
   if (user) {
     res.render("index.ejs", {username: user});
   } else {
-    res.sendStatus(401);
+    res.redirect("/login");
   }
 });
+
+app.get("/login", (req, res) => {
+  res.render("login.ejs", {errors: []});
+})
 
 app.post("/login", (req, res) => {
   const {username, password} = req.body;
@@ -33,7 +37,7 @@ app.post("/login", (req, res) => {
     res.cookie("session", sessionId, {maxAge: 30 * 1000});
     res.redirect("/");
   } else {
-
+    res.render("login.ejs", {errors: ["Wrong username or password!"]})
   }
 })
 
