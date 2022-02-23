@@ -20,6 +20,11 @@ app.get("/books", (req, res) => {
     res.json({books: BOOKS.map(bookListItem)});
 });
 
+app.get("/books/:bookId", (req, res) => {
+    const book = BOOKS.find(({id}) => id === parseInt(req.params.bookId));
+    res.json(book);
+})
+
 app.listen(PORT, () => {
     console.log(`Started Express server on port ${PORT}`);
 });
