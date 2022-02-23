@@ -23,10 +23,6 @@ userSchema.statics.login = async function(username, password) {
     return null;
 }
 
-// User.login(username, password)
-// => {username: blabla...}
-// => null
-
 const User = mongoose.model("User", userSchema);
 
 exports.User = User;
