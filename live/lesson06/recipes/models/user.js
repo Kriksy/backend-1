@@ -15,6 +15,18 @@ userSchema.pre(
     }
 );
 
+userSchema.statics.login = async function(username, password) {
+    const user = await this.findOne({username});
+    if (user && await bcrypt.compare(password, user.password)) {
+        return user;
+    }
+    return null;
+}
+
+// User.login(username, password)
+// => {username: blabla...}
+// => null
+
 const User = mongoose.model("User", userSchema);
 
 exports.User = User;
