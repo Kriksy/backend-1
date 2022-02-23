@@ -23,7 +23,16 @@ app.get("/books", (req, res) => {
 app.get("/books/:bookId", (req, res) => {
     const book = BOOKS.find(({id}) => id === parseInt(req.params.bookId));
     res.json(book);
-})
+});
+
+app.get("/authors/:author", (req, res) => {
+    const authorName = req.params.author;
+    const books = BOOKS.filter(({author}) => author === authorName);
+    res.json({
+        name: authorName,
+        books: books.map(bookListItem)
+    });
+});
 
 app.listen(PORT, () => {
     console.log(`Started Express server on port ${PORT}`);
