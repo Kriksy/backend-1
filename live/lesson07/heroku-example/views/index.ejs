@@ -12,5 +12,12 @@
             <p><%= entry.date %></p>
             <p><%= entry.content %></p>
         <% }) %>
+        <form method="POST" action="/posts">
+            Title:
+            <input type="text" name="title" /><br/>
+            Content:<br/>
+            <textarea name="content"></textarea><br/>
+            <input type="submit" value="OK" />
+        </form>
     </body>
 </html>
