@@ -7,5 +7,23 @@
     <body>
         <h1><%= hero.name %></h1>
         <p>Age: <%= hero.age %></p>
+        <p>Location: 
+            <% if (hero.Location) { %>
+                <a href="/locations/<%= hero.Location.id %>">
+                    <%= hero.Location.name %>
+                </a>
+            <% } %>
+        </p>
+        <form method="POST">
+            Location:
+            <select name="location">
+                <% locations.forEach(loc => {%>
+                    <option value="<%= loc.id %>">
+                        <%= loc.name %>
+                    </option>
+                <% }) %>
+            </select>
+            <input values="Save" type="submit">
+        </form>
     </body>
 </html>
