@@ -1,6 +1,5 @@
 const express = require("express");
-const { sequelize } = require("./models/db");
-const { Hero } = require("./models/hero");
+const { sequelize, Hero } = require("./models");
 
 const app = express()
 const PORT = 3000;

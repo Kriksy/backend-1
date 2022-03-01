@@ -1,5 +1,8 @@
-const { sequelize } = require("./db");
 const { DataTypes } = require("sequelize");
+
+const { Sequelize } = require("sequelize");
+
+const sequelize = new Sequelize("mysql://root:superhemligt@localhost:3306/lotr");
 
 const Hero = sequelize.define("Hero", {
   name: {
@@ -14,4 +17,4 @@ const Hero = sequelize.define("Hero", {
 });
 
 
-exports.Hero = Hero;
+module.exports = { Hero, sequelize };
