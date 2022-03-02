@@ -12,5 +12,10 @@
                 <li><%= hero.name %></li>
             <% }) %>
         </ul>
+        <form method="POST" action="/heroes">
+            Name: <input type="text" name="name" /><br/>
+            Age: <input type="number" name="age" /><br/>
+            <input type="submit" value="Save" />
+        </form>
     </body>
 </html>
