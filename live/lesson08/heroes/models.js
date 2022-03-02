@@ -3,7 +3,7 @@ const { DataTypes, Sequelize } = require("sequelize");
 
 const sequelize = new Sequelize("mysql://root:superhemligt@localhost:3306/lotr");
 
-const Hero = sequelize.define({
+const Hero = sequelize.define("Hero", {
     name: {
         type: DataTypes.STRING, 
         allowNull: false, 
