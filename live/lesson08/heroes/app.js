@@ -18,6 +18,13 @@ app.post("/heroes", async (req, res) => {
     res.redirect("/");
 });
 
+app.get("/heroes/:id", async (req, res) => {
+    const id = parseInt(req.params.id);
+    const hero = await Hero.findOne({where: {id}});
+    console.log(hero);
+    res.render("hero.ejs", {hero});
+})
+
 sequelize.sync({alter: true}).then(() => {
     console.log("Done syncing models");
     app.listen(PORT, () => {

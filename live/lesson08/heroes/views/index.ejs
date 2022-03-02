@@ -8,8 +8,12 @@
     <body>
         <h1>Heroes</h1>
         <ul>
-            <% heroes.forEach(hero => {%> 
-                <li><%= hero.name %></li>
+            <% heroes.forEach(hero => {%>
+                <li>
+                    <a href="/heroes/<%= hero.id %>">
+                        <%= hero.name %>
+                    </a>
+                </li>
             <% }) %>
         </ul>
         <form method="POST" action="/heroes">
